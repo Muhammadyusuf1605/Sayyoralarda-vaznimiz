@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(1, 12, 105);
+}
+
+
+.Human-weith {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 25px 0;
+    color: white;
+}
+
+.human-inp {
+    padding: 5px;
+    width: 60px;
+    border: none;
+    background-color: lightblue;
+}
+
+
+
+.sayyoralar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding: 10px;
+}
+
+.Img-con {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    padding: 20px 25px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 153, 255);
+}
+
+.sayyora-img {
+    width: 150px;
+}
